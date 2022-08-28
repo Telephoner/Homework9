@@ -8,11 +8,11 @@ public class Author {
 
     }
 
-    public String getName() {
-        return this.authorName;
-    }
-
-    public String getSurname() {
-        return this.authorSurname;
+    @Override
+    public String toString() {
+        return "Author{" +
+                "authorName='" + authorName + '\'' +
+                ", authorSurname='" + authorSurname + '\'' +
+                '}';
     }
 }
