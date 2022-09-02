@@ -26,4 +26,8 @@ public class Book {
         this.releaseYear = releaseYear;
     }
 
+    @Override
+    public int hashCode() {
+        return super.hashCode();
+    }
 }

@@ -10,5 +10,6 @@ public class Main {
         System.out.println(bookThief.getTitle() + " " + bookThief.getReleaseYear() + " " + bookThief.getAuthor());
         witcher.setReleaseYear(2017);
         System.out.println("witcher.getReleaseYear() = " + witcher.getReleaseYear());
+
     }
 }
